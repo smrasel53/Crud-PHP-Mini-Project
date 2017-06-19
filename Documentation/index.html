@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Crud PHP Mini Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<button onclick="topFunction()" id="top" title="Go to top">Top</button>
+	<div class="container">
+		<div class="header">
+			<h2>"Crud PHP Mini Project" Documentation by "SM Rasel" v1.0</h2>
+		</div>
+		<div class="main-content">
+			<h1>Crud PHP Mini Project</h1>
+			<div class="projectdetails">
+				<div class="floatleft">
+					<p><strong>Created:</strong> 19 June 2017<br/><strong>By:</strong> SM Rasel<br/><strong>Email:</strong> smrasel.cse@gmail.com<br/><strong>Phone:</strong> 01838797269</p>
+				</div>
+				<div class="floatright">
+					<p>Crud PHP Mini Project Project. Designed &amp; Developed this project using HTML5, CSS, PHP &amp; MySQL. Also, very user-friendly &amp; cross browser compatibility.</p>
+				</div>
+			</div>
+			<div class="tableofcontents">
+				<h3>Table of Contents</h3>
+			</div>
+			<div class="nav">
+				<ol type="A">
+					<li><a href="#A">About the Project</a></li>
+					<li><a href="#B">Installation</a></li>
+					<li><a href="#C">Configuration</a></li>
+					<li><a href="#D">Examples</a></li>
+					<li><a href="#E">Success &amp; Credits</a></li>
+				</ol>
+			</div>
+			<div class="dotted"></div>
+			<div class="singledetails" id="A">
+				<h4>A. About the Project</h4>
+				<p>Crud PHP Mini Project Project. Designed &amp; Developed this project using HTML5, CSS, PHP &amp; MySQL. Also, very user-friendly &amp; cross browser compatibility. Using custom Pagination, Trash &amp; Retore mechanism. Also, using text field, radio button, drop-down list &amp; checkbox.</p>
+			</div>
+			<div class="singledetails" id="B">
+				<h4>B. Installation</h4>
+				<p>First of all, download any local server like wamp or xampp from below links.</p>
+				<p>Xampp Download Link : <a href="https://www.apachefriends.org/download.html" target="_blank">Download</a></p>
+				<p>Wamp Download Link : <a href="http://www.wampserver.com/en/" target="_blank">Download</a></p>
+				<p> After completed downloading install xampp or wampp server any drive on your computer. Go to the root directory on your server. If you are installing xampp go to the <span style='background:#FCBD93'>htdocs</span> directory, for wamp server go to the <span style='background:#FCBD93'>www</span> directory.</p> Put here project folder.
+				<p>Here is sample screenshot for xampp server.</p>
+				<img src="img/screenshot_1.PNG">
+				<p>Then go to the any of your favorite web browser and write <span style='background:#FCBD93'>localhost/phpmyadmin</span></p>
+				<img src="img/screenshot_3.PNG">
+				<p>From <span style='background:#FCBD93'>New</span> create a database.</p>
+				<img src="img/screenshot_2.PNG">
+				<p>From the phpmyadmin click on import tab importing your <span style='background:#FCBD93'>.sql</span> file from your project folder.</p>
+				<img src="img/screenshot_4.PNG">
+			</div>
+			<div class="singledetails" id="C">
+				<h4>C. Configuration</h4>
+				<p>Now go to your project folder. From <span style='background:#FCBD93'>config</span> directory edit <span style='background:#FCBD93'>config.php</span></p>
+				<img src="img/screenshot_5.PNG">
+				<p>After configure this go to web browser and write <span style='background:#FCBD93'>localhost/your_project_directory_name</span> Example: <span style='background:#FCBD93'>localhost/comment_system</span></p>
+				<p style='text-align:center;background:#149F5B;color:#fff;padding:3px;border-radius:4px;'>Have Fun !</p>
+			</div>
+			<div class="singledetails" id="D">
+				<h4>D. Examples</h4>
+				<p>Some of project examples are given below:- </p>
+				<p><strong>index page</strong> : This this project main page. Index page is just welcome message show.</p>
+				<img src="img/screenshot_6.PNG">
+				<p><strong>create page</strong> : This this create page. From this page you can create data.</p>
+				<img src="img/screenshot_7.PNG">
+				<p><strong>display page</strong> : This this display page. From this page you can show all created data and also manage edit, delete data. If you are deleting data it will go to trash page.</p>
+				<img src="img/screenshot_8.PNG">
+				<p><strong>trashlist page</strong> : This this trashlist page. From this page you can show all trashed data and also manage restore, permenantly deleted data. If you are deleting data it will permenantly deleted.</p>
+				<img src="img/screenshot_9.PNG">
+			</div>
+			<div class="singledetails" id="E">
+				<h4>E. Success &amp; Credits</h4>
+				<p>All credits go to SM Rasel. By completing this project google &amp; w3schools help me.</p>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Once again, thank you so much for purchasing this application. As I said in the begainning, I'd be glad to help you out if you have any questions related to this application. No guarantees, but I'll try my best to assist you. If you have a more genaral question relating to the application on CodeCaynon, you might consider visiting the forums and asking your question in the "Item Discussion" section. - <strong>SM Rasel</strong></p>
+		</div>
+	</div>
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("top").style.display = "block";
+			} else {
+				document.getElementById("top").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:helvetica;
+}
+.wrapper{
+	width:900px;
+	margin:0 auto;
+	background:#F2F2F2;	
+}
+.headeropt, .footeropt{
+	background:#699;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+}
+.headeropt h1{
+	margin:0;
+	font-weight:bold;
+}
+.footeropt p{
+	margin:0;
+	font-size:18px;
+}
+.mainmenu{margin-top:3px; overflow:hidden;}
+.mainmenu ul{padding:0; margin:0; list-style:none;}
+.mainmenu ul li{display:block; float:left;}
+.mainmenu ul li a{background:#818181 none repeat scroll 0 0; color:#fff; display: inline-block; font-weight:bold; margin-right:1px; padding:5px 10px; text-decoration:none;}
+.mainmenu ul li a:hover{background:#666666;}
+hr{
+	border:2px solid #818181;
+}
+.insert-box{
+	min-height:160px;
+	width:380px;
+	background:#FFFFFF;
+	padding:20px;
+	overflow:hidden;
+	border-radius:4px;
+}
+.maincontent{
+	min-height:300px;
+	padding:20px;
+	font-size:18px;	
+}
+.subcontent{
+	margin-left:200px;
+}
+.display-content{
+	margin:10px 20px;
+}
+.leftSide{
+	float:left;
+}
+.rightSide{
+	float:right;
+}
+p{margin:0}
+
+table.tbl_one{margin:0 auto;}
+table.tbl_one tr th{background:#888; color:#fff; padding:3px 32px; text-shadow:1px 1px 2px #000;}
+table.tbl_one tr:nth-child(2n+1){background:#e8e5e5; height:30px; text-align:center;}
+table.tbl_one tr:nth-child(2n){background:#ddd; height:30px; text-align:center;}
+table.tbl_one tr td a{color:#009bda; text-decoration:none; }
+table.tbl_one tr td a:hover{color:#003972; text-decoration:none;}
+
+input[type="text"], input[type="email"], input[type="password"]{
+	width:238px;
+	padding:5px;
+	border:1px solid #DCEAF9;
+	font-weight:bold;
+}
+input[type="submit"]{
+	background: #1BA260;
+	color: #fff;
+	padding:7px 20px;
+	border:0;
+	border-radius: 4px;
+	font-weight:bold;
+}
+#simple{
+    padding:5px 10px;
+    border:none;
+}
+#success{
+    padding:5px 10px;
+    background:#1EA462;
+    border:none;
+    color:#FFFFFF;
+}
+.error{
+	color: #DA5245;
+	padding: 5px 0px 5px 5px;
+}
+.success{
+	color: #1BA260;
+	padding: 5px 0px 5px 5px;
+}
+#cencel{
+	padding:5px 10px;
+    background:#DD4F43;
+    border:none;
+    color:#FFFFFF;
+}
+a{
+	text-decoration:none;
+	color:#06ACF2;	
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.pagination{
+	padding-top: 10px;
+}
+.pagination a{
+	padding: 3px 5px;
+	background: #666;
+	color: #fff;
+	margin-right: 5px;
+	border-radius: 4px; 
+
+}
+.footeropt a {
+	color: #fff;
+}
+
+
